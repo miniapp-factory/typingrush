@@ -60,12 +60,12 @@ export function TypingTimer() {
       </CardContent>
       <CardFooter className="flex justify-center gap-4">
         {status === "idle" && (
-          <Button onClick={startGame} variant="primary">
+          <Button onClick={startGame} variant="default">
             Start
           </Button>
         )}
         {status === "running" && (
-          <Button onClick={submit} variant="primary">
+          <Button onClick={submit} variant="default">
             Submit
           </Button>
         )}
